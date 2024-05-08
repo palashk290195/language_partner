@@ -11,7 +11,7 @@ DEEPGRAM_TTS_ENDPOINT = "https://api.deepgram.com/v1/speak?model=aura-asteria-en
 # Configure Google AI
 genai.configure(api_key=GOOGLE_API_KEY)
 
-initial_prompt = "*Your job is to teach the user English, become a language partner, give good feedback on the language, and keep the conversation continued. Don't talk more than 30 words in one message*"
+initial_prompt = "*VERY VERY IMPORTANT: Your job is to give improvement feedback on the user's English (if they made any mistakes), and continue the conversation as their english language partner. Don't just stop at feedback. Just restrict to 30 words and only one question for the user to answer*"
 
 # Initialize or retrieve ongoing chat from session state
 if 'chat' not in st.session_state:
