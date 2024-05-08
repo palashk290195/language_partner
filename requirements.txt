@@ -1,4 +1,4 @@
 google-generativeai
 requests
-st_audiorec
+streamlit-audiorec
 os
