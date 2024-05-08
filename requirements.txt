@@ -1,0 +1,4 @@
+google-generativeai
+requests
+st_audiorec
+os
